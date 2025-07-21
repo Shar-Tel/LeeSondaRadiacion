@@ -1,0 +1,2 @@
+Programa que lee por serie sondas de radiación Si-RS485 cada cuarto de hora, guarda las lecturas de forma temporal en una BD SQLite y envía los datos en JSON mediante MQTT a un servidor.
+Lee radiación solar, temperatura externa y temperatura de placa.
