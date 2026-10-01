@@ -1,7 +1,9 @@
+#!/usr/bin/python
+
+
 #ESTE PROGRAMA LEE RADIACIÓN Y TEMPERATURA DE PLACA Y EXTERNA. GUARDA EN BD Y LO ENVÍA DE AHÍ.
 
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+
 import minimalmodbus
 import configparser as ConfigParser
 import serial
@@ -181,7 +183,8 @@ def main():
           
 
     except KeyboardInterrupt:
-        exit()
+        sys.exit()
+    
 
           
   
